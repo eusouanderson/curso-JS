@@ -1,0 +1,9 @@
+netscape = criador do JavaScript = Brendan Eich
+Java na época era muio famoso e a netscape com jogada de markting colocou o nome do JavaScript
+EcmaScript é o JavaScript padronizado , é a versão padronizada do Javascript pela Ecma , Ex: Iso dos EUA.
+livros JavaScript e também esses sites 
+https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+
+
+
+
