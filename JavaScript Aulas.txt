@@ -12,3 +12,28 @@ tambémpodemos usar a palvra let.
 
 Para colocar strings nas variaveis do Js , podemos usar três tipos de aspas : "", '', ´´, 
 
+O nome de cada variavel é chamado de identificador
+pode começar com letra, $ ou _ 
+
+Não pode começar com numeros, 
+é possivel usar letras ou numeros
+é possivel usar acentos e símbolos
+não podem conter espaços 
+não podem ser palavras reservadas , ex Func, alert etc.
+
+number 1, 2.5, 10
+Infinity
+NaN
+
+string 'Maria', "joão", 'pessoa', ´carro´
+
+boolean 'True' 'False'
+null
+undefined
+object
+    Array
+function
+
+typeof = mostra o tipo de varaivel
+
+

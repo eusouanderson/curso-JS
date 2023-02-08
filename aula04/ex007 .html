@@ -18,21 +18,23 @@
 </head>
 <body>
     <h1> Curso Java Script </h1>
-    <p>Curso em video</p>
-    <p><i>Netscape</i> = criador do JavaScript = Brendan Eich </p>
+    <h2><p>Curso em video</p>
+        <a>Tratamento de dados</a>
+        <p>Template Strings</p>
+    </h2>
+    
     <p>
-        Java na época era muio famoso e a netscape com jogada de markting colocou o nome do JavaScript
-        EcmaScript é o JavaScript padronizado , é a versão padronizada do Javascript pela Ecma , Ex: Iso dos EUA.
+        Para concatenação de variaveis é usado o ${s}
+        Ex: `Eu estou aprendendo ${s}` 
     </p>
+    
     <script>
-        //Alertas
-
-        window.alert('Ola Mundo')
-        window.confirm('Esta gostando ?')
-        var nome = window.prompt('Qual é seu nome ?')
-        window.alert('Bem vindo ao curso JavaScript, ' + nome + '!')
-        
+        var n1 =String(window.prompt('Digite uma String : '))
+        var n2 =String(window.prompt('Digite outra String : '))
+        var s = n1 + n2
+        window.alert(`A primeira string é ${n1} e a segunda string é ${n2} e a concatenação das Strings é ${s} `)
     </script>
 
 </body>
+
 </html>
