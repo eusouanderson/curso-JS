@@ -4,6 +4,11 @@ EcmaScript é o JavaScript padronizado , é a versão padronizada do Javascript 
 livros JavaScript e também esses sites 
 https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/JavaScript_basics
 
+// comentario em uma unica linha
+/* comentario em mais de uma linha de código */ 
 
+No JavaScript moderno, além de utilizar a palvra var, 
+tambémpodemos usar a palvra let.
 
+Para colocar strings nas variaveis do Js , podemos usar três tipos de aspas : "", '', ´´, 
 
