@@ -18,28 +18,35 @@
         width: 250px;
         height: 600px;
         }
+        .fit-font{
+            font: normal 20pt Arial;
+            color: blueviolet;
+           
+        }
     </style>
 
 </head>
-<img class= "fir-picture" src='printScreen/templateStrings.png'>
+<img class= "fir-picture" src='printScreen\UppercaseeLowercase.png'>
 
 <body>
     <h1> Curso Java Script </h1>
     <h2><p>Curso em video</p>
         <a>Tratamento de dados</a>
-        <p>Conversão de Tipo</p>
+        <p>Document.write </p>
     </h2>
     
-    <p>Para converter para String</p>
-    <p><i>String + String = concatenação </i></p>
-    <p><i>Number + Number = somar </i></p>
+    <p>
+        <p> Document.write // escreve na tela 
+        podemos colocar dentro do document.write tags html
+        Ex. ' < u >Seu nome é ${nome}' 
+        <p> podemos chamar class do css </p>
+    </p>
     
     <script>
-        var n1 =String(window.prompt('Digite uma String : '))
-        var n2 =String(window.prompt('Digite outra String : '))
-        var s = n1 + n2
-        window.alert('A concatenação das Strings é ' + s)
+        var nome =window.prompt('Digite seu nome: ')
+        window.document.write(`<p class="fit-font"> Seu nome é ${nome} e tem essa quantidade de caracteres ${nome.length}`)
     </script>
+
 
 </body>
 

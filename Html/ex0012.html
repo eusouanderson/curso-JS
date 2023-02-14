@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula JS</title>
+    <style>
+        body{
+            background-color: rgb(50, 50, 100);
+            color: rgb(209, 206, 206);
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: yellow;
+        }
+        .fit-picture {
+        width: 250px;
+        height: 600px;
+        }
+        .fit-font{
+            font: normal 20pt Arial;
+            color: blueviolet;
+           
+        }
+    </style>
+
+</head>
+<img class= "fir-picture" src='printScreen\FormatandoNumeros.png'>
+
+<body>
+    <h1> Curso Java Script </h1>
+    <h2><p>Curso em video</p>
+        <a>Formatando numeros</a>
+
+    </h2>
+    
+    <p>
+        
+        <p>Podemos formatar numeros  </p>
+            <p> var n1=154.5</p>
+            n1.toFixed(2)
+            1545.50
+            Tbm podemos fazer a ssbstituição da "," por "." usando o replace
+        </p>
+        <a>Ex. n1.toFixed(2).replace("," , ".") </a>
+    </p>
+    
+    <script>
+        var numero = window.prompt('Digite um numero: ')
+        numero.toFixed(2).replace('.', ',')
+        window.document.write(`<p class="fit-font"> Seu numero é ${numero} e tem essa quantidade de caracteres ${numero.toFixed(2)}`)
+    </script>
+
+
+</body>
+
+</html>
