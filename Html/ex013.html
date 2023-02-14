@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula JS</title>
+    <style>
+        body{
+            background-color: rgb(50, 50, 100);
+            color: rgb(209, 206, 206);
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: yellow;
+        }
+        .fit-picture {
+        width: 250px;
+        height: 600px;
+        }
+        .fit-font{
+            font: normal 20pt Arial;
+            color: blueviolet;
+           
+        }
+    </style>
+
+</head>
+<img class= "fir-picture" src='printScreen\Operadores.png'>
+<img class= "fir-picture" src='printScreen/Precedencia.png'>
+<img class= "fir-picture" src='printScreen/AutoAtribuições.png'>
+
+<body>
+    <h1> Curso Java Script </h1>
+    <h2><p>Curso em video</p>
+        <a>Operadores</a>
+
+    </h2>
+    
+    <p>
+        Aritméticos = + - * / % ** 
+
+    </p>
+    
+    <script>
+        var numero = Number(window.prompt('Digite um numero: '))
+        var numero1 = Number(window.prompt('Digite o segundo numero: '))
+        var adição = numero + numero
+        var subtração = numero - numero
+        var mult = numero * numero
+        var div = numero / numero
+        var rest = numero % numero
+        var pot = numero ** numero
+
+        window.document.write(`<p class="fit-font"> O primeiro numero é ${numero}
+            o segundo numero é ${numero1} a soma é ${adição}, a subtração é ${subtração} multiplicação é ${mult}, divisão é ${div}
+            o resto é ${rest}, e a potencialiazão é ${pot} `)
+    </script>
+
+
+</body>
+
+</html>
