@@ -29,9 +29,7 @@
     </div>
 
     <script>
-        area.addEventListener('click', clicar)
-        area.addEventListener('mouseenter', entrar)
-        area.addEventListener('sair', sair)
+
         var area = window.document.getElementById('area')
         function clicar() {
             area.innerText = 'Clicou!'
@@ -39,10 +37,12 @@
         }
         function entrar(){
             area.innerText = 'Entrou!'
+            area.style.backgroundColor = 'blue'
         }
 
         function sair(){
             area.innerText = 'Saiu!'
+            area.style.backgroundColor = 'yellow'
         }
     </script>
 
