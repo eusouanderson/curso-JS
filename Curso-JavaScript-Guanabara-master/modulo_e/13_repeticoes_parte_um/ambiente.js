@@ -1,21 +1,18 @@
-// while
-var counter = 1
-while (counter <= 6) {
-    console.log(`Tudo bem? (${counter}x) `)
-    counter++
-} 
+var c = 1
 
-// do...while
-var counter = 0
-do  {
-    console.log(`Tudo bem? (${counter}x) `)
-    counter++
-} while (counter <= 6)
+/*
+do {
+    console.log(`Passo ${c}`)
+    c++ // c = c +1 
+}while (c <= 5)
+ 
+var c = 1
+while (c <= 10){
+    console.log(`Passo ${c}`)
+    c++ // c = c +1 
+}
+*/
 
-// GoHorse
-console.log("Tudo bem?")
-console.log("Tudo bem?")
-console.log("Tudo bem?")
-console.log("Tudo bem?")
-console.log("Tudo bem?")
-
+for (var c=1; c<=10; c++){
+    console.log(`Passo ${c}`)
+}
